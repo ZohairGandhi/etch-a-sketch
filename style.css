@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    max-width: 960px;
+}
+
+.col {
+    flex: 1;
+}
+
+.cell {
+    padding: 30px;
+    border-style: solid;
+    margin: 0;
+}
