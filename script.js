@@ -10,10 +10,16 @@ function createGrid() {
             let cellDiv = document.createElement("div");
             cellDiv.setAttribute("class", "cell");
             colDiv.appendChild(cellDiv);
+
+            cellDiv.addEventListener("mouseenter", (e) => handleMouseEnter(e));
         }
 
         container.appendChild(colDiv);
     }
+}
+
+function handleMouseEnter(event) {
+    event.target.style.backgroundColor = "black";
 }
 
 createGrid();

@@ -4,11 +4,14 @@
 }
 
 .col {
+    display: flex;
+    flex-direction: column;
     flex: 1;
 }
 
 .cell {
-    padding: 30px;
+    padding: 10px;
     border-style: solid;
     margin: 0;
+    flex: 1;
 }
