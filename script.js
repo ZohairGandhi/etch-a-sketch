@@ -29,7 +29,7 @@ function handleMouseEnter(event) {
 }
 
 function resizeGrid() {
-    let newGridDim = parseInt(prompt("Enter new width for a side of the grid (between 1-100)"));
+    let newGridDim = parseInt(prompt("Enter new side length for the grid (between 1-100)"));
     if (newGridDim < 1 || newGridDim > 100) {
         alert("Invalid value! Please enter a value between 1-100.");
         return;
